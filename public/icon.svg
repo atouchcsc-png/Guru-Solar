@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Guru Solar">
+  <rect width="512" height="512" rx="96" fill="#ffffff" />
+  <g transform="translate(56, 68)">
+    <!-- Sun rays -->
+    <polygon points="200,8 214,96 186,96" fill="#d97706" />
+    <polygon points="122,26 164,104 140,116" fill="#d97706" />
+    <polygon points="278,26 260,116 236,104" fill="#d97706" />
+    <polygon points="62,76 130,132 114,152" fill="#d97706" />
+    <polygon points="338,76 286,152 270,132" fill="#d97706" />
+    <!-- Rising Sun -->
+    <path d="M 110 184 A 90 90 0 0 1 290 184 Z" fill="#f59e0b" />
+    <!-- Solar Panel Semicircle -->
+    <clipPath id="panelClip">
+      <path d="M 40 202 L 360 202 A 160 160 0 0 1 40 202 Z" />
+    </clipPath>
+    <g clip-path="url(#panelClip)">
+      <rect x="40" y="202" width="320" height="170" fill="#0f172a" />
+      <!-- Grid lines -->
+      <line x1="40" y1="248" x2="360" y2="248" stroke="#ffffff" stroke-width="10" />
+      <line x1="40" y1="296" x2="360" y2="296" stroke="#ffffff" stroke-width="10" />
+      <line x1="125" y1="202" x2="85" y2="365" stroke="#ffffff" stroke-width="10" />
+      <line x1="200" y1="202" x2="165" y2="365" stroke="#ffffff" stroke-width="10" />
+      <line x1="275" y1="202" x2="245" y2="365" stroke="#ffffff" stroke-width="10" />
+    </g>
+  </g>
+</svg>

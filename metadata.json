@@ -1,0 +1,6 @@
+{
+  "name": "Guru Solar",
+  "description": "Solar sales and services management suite with solar calculator, customer CRM, bulk SMS, electrical unit converter, and Google Drive and Gmail backups.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
